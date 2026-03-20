@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "echo \"BUILD: Using CLOUDFLARE_ACCOUNT_ID: ${CLOUDFLARE_ACCOUNT_ID:-not set}\" && wrangler dev",
-    "deploy": "echo \"BUILD: Using CLOUDFLARE_ACCOUNT_ID: ${CLOUDFLARE_ACCOUNT_ID:-not set}\" && wrangler deploy",
+    "deploy": "echo \"BUILD: Using CLOUDFLARE_ACCOUNT_ID: ${CLOUDFLARE_ACCOUNT_ID:-not set}, SERVER_NAME: ${SERVER_NAME:-not set}\" && wrangler deploy",
     "db:migrate": "wrangler d1 execute tuwunel-db --file=./migrations/schema.sql",
     "db:migrate:local": "wrangler d1 execute tuwunel-db --local --file=./migrations/schema.sql",
     "test": "vitest",
