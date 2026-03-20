@@ -4,8 +4,8 @@
   "description": "Matrix homeserver running on Cloudflare Workers",
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
+    "dev": "echo \"Using CLOUDFLARE_ACCOUNT_ID: ${CLOUDFLARE_ACCOUNT_ID}\" && wrangler dev",
+    "deploy": "echo \"Using CLOUDFLARE_ACCOUNT_ID: ${CLOUDFLARE_ACCOUNT_ID}\" && wrangler deploy",
     "db:migrate": "wrangler d1 execute tuwunel-db --file=./migrations/schema.sql",
     "db:migrate:local": "wrangler d1 execute tuwunel-db --local --file=./migrations/schema.sql",
     "test": "vitest",
