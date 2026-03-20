@@ -130,7 +130,7 @@
 	],
 	// Environment variables
 	"vars": {
-		"SERVER_NAME": "__SERVER_NAME__",
+		"SERVER_NAME": "m.pixitha.me",
 		"SERVER_VERSION": "0.1.0",
 	//	"TURN_KEY_ID": "42586a3b6b8415d1e69e825f169f3108",
 	//	"LIVEKIT_API_KEY": "devkey",
@@ -159,7 +159,7 @@
 	// Custom domain routing
 	"routes": [
 		{
-			"pattern": "__SERVER_NAME__",
+			"pattern": "m.pixitha.me",
 			"custom_domain": true
 		}
 	],
