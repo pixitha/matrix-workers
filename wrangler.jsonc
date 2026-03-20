@@ -99,31 +99,31 @@
 		},
 		{
 			"tag": "v2",
-			"new_classes": [
+			"new_sqlite_classes": [
 				"CallRoomDurableObject"
 			]
 		},
 		{
 			"tag": "v3",
-			"new_classes": [
+			"new_sqlite_classes": [
 				"AdminDurableObject"
 			]
 		},
 		{
 			"tag": "v4",
-			"new_classes": [
+			"new_sqlite_classes": [
 				"UserKeysDurableObject"
 			]
 		},
 		{
 			"tag": "v5",
-			"new_classes": [
+			"new_sqlite_classes": [
 				"PushDurableObject"
 			]
 		},
 		{
 			"tag": "v6",
-			"new_classes": [
+			"new_sqlite_classes": [
 				"RateLimitDurableObject"
 			]
 		}
@@ -132,7 +132,7 @@
 	"vars": {
 		"SERVER_NAME": "m.easydemo.org",
 		"SERVER_VERSION": "0.1.0",
-		"TURN_KEY_ID": "42586a3b6b8415d1e69e825f169f3108",
+	//	"TURN_KEY_ID": "42586a3b6b8415d1e69e825f169f3108",
 	//	"LIVEKIT_API_KEY": "devkey",
 	//	"LIVEKIT_URL": "wss://livekit.easydemo.org"
 	},
